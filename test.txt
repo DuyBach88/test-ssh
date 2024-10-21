@@ -1,0 +1,63 @@
+git init
+This command creates a new Git repository in your project’s directory.
+
+2. Clone a Repository – git clone
+
+Creates a copy of an existing repository.
+
+ git clone https://github.com/username/repo.git
+3. Check Repository Status – git status
+
+To check the status of your repository:
+
+git status
+This command shows changes, staged files, and the current branch.
+
+4. Add Changes:
+To stage changes for the next commit:
+
+git add <file-name>
+Or to add all changes:
+
+git add .
+5. Commit Changes – git commit
+
+Records the staged changes with a message.
+
+git commit -m "Initial commit"
+Include a descriptive message to explain what changes were made.
+
+6. Create a Branch – git branch <branch-name>
+Uploads local repository content to a remote repository.
+
+git branch  <branch-name>
+7. Switch Branches – git checkout
+
+To switch to a different branch:
+
+git checkout <branch-name>
+8. Pull Changes – git pull
+
+Fetches and integrates changes from a remote repository.
+
+git pull origin main
+9. Merge Branches – git merge
+
+Merges changes from one branch into another.
+
+git merge <branch-name>
+10. Push Changes – git push
+
+To push your changes to the remote repository:
+
+git push origin <branch-name>
+Getting Started with Git
+Install Git: Download and install Git from the official Git website.
+Configure Git: Set up your username and email.
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Create a Repository: Navigate to your project directory and initialize a Git repository.
+git init
+Make Your First Commit: Add files to the staging area and commit your changes.
+git add .
+git commit -m "Initial commit"
